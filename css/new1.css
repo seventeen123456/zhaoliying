@@ -1,0 +1,228 @@
+/* Required for full background image */
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+.example-float-right{
+  float:right;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 650px;
+  }
+}
+
+.album_wrap j-top-album album_vertical_top
+{
+  -webkit-text-size-adjust: 100%;
+  font: 12px/1.5 tahoma,arial,sans-serif;
+  font-size: 12px;
+  font-family: arial,'pingfang sc',stheiti,simsun,sans-serif;
+  color: #333;
+  position: relative;
+}
+
+.album_cover_wrap
+{
+  -webkit-text-size-adjust: 100%;
+  font: 12px/1.5 tahoma,arial,sans-serif;
+  font-family: arial,'pingfang sc',stheiti,simsun,sans-serif;
+  display: block;
+  padding: 2px;
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+  text-indent: 0;
+  box-shadow: 0 0 2px rgba(150,150,150,.2);
+}
+
+.album_cover_img
+{
+  -webkit-text-size-adjust: 100%;
+  font: 12px/1.5 tahoma,arial,sans-serif;
+  font-family: arial,'pingfang sc',stheiti,simsun,sans-serif;
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+  text-indent: 0!important;
+  display: block;
+}
+
+.ed_image_link
+{
+  -webkit-text-size-adjust: 100%;
+  font: 12px/1.5 tahoma,arial,sans-serif;
+  font-family: arial,'pingfang sc',stheiti,sans-serif;
+  text-align: center;
+  text-indent: 0!important;
+  position: relative;
+  display: block;
+  color: rgb(15, 15, 15);
+  text-decoration: none;
+}
+
+
+
+.album_title
+{
+  -webkit-text-size-adjust: 100%;
+  font: 12px/1.5 tahoma,arial,sans-serif;
+  font-family: arial,'pingfang sc',stheiti,simsun,sans-serif;
+  color: #666;
+  text-indent: 0!important;
+  display: block;
+  width: 100%;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  padding: 6px 0;
+}
+
+.album_bg
+{
+  -webkit-text-size-adjust: 100%;
+  font: 12px/1.5 tahoma,arial,sans-serif;
+  font-size: 12px;
+  font-family: arial,'pingfang sc',stheiti,simsun,sans-serif;
+  color: #333;
+  display: block;
+  height: 2px;
+  overflow: hidden;
+  border: 1px solid #e2e2e2;
+  border-top: 0 none;
+  margin: 0 1px;
+}
+
+.album_bg_bottom
+{
+  -webkit-text-size-adjust: 100%;
+  font: 12px/1.5 tahoma,arial,sans-serif;
+  font-size: 12px;
+  font-family: arial,'pingfang sc',stheiti,simsun,sans-serif;
+  color: #333;
+  display: block;
+  height: 2px;
+  overflow: hidden;
+  border: 1px solid #e2e2e2;
+  border-top: 0 none;
+  margin: 0 3px;
+}
+
+
+.top-nav-collapse {
+  background-color: #9d84a8ad !important;
+}
+
+.foot{
+  background-color: #9d84a8ad !important;
+}
+
+.btn-color{
+  background-color: #9d84a8ad !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #3f51b5 !important;
+  }
+}
+
+.rgba-gradient {
+  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+  background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%)));
+  background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+}
+
+.card {
+  background-color: rgba(126, 123, 215, 0.2);
+}
+
+.md-form label {
+  color: #ffffff;
+}
+
+h6 {
+  line-height: 1.7;
+}
+
+.float-img{
+-webkit-text-size-adjust: 100%;
+font-size: 14px;
+word-wrap: break-word;
+text-indent: 2em;
+line-height: 24px;
+display: block;
+border-bottom: 0;
+margin: 10px 0;
+position: relative;
+color: #136ec2;
+text-decoration: none;
+float: right;
+clear: right;
+margin-left: 20px;
+width: 222px;
+}
+
+.para{
+    margin-bottom: 15px;
+    text-indent: 2em;
+    line-height: 28px;
+
+}
+
+.img-text{
+-webkit-text-size-adjust: 100%;
+font: 12px/1.5 tahoma,arial,sans-serif;
+word-wrap: break-word;
+font-family: arial,'pingfang sc',stheiti,simsun,sans-serif;
+line-height: 24px;
+position: relative;
+background: #fff;
+color: #666;
+display: inline;
+font-size: 12px;
+padding: 2px;
+text-align: center;
+text-indent: 0;
+float: right;
+margin-left: 10px;
+clear: right;
+margin-bottom: 10px;
+width: 220px;
+}
+
+.left-text{
+  -webkit-text-size-adjust: 100%;
+  font: 12px/1.5 arial,'\5b8b\4f53',sans-serif;
+  line-height: 20px;
+  font-family: Microsoft YaHei,SimHei,Verdana;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+

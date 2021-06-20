@@ -1,0 +1,21 @@
+html,
+body,
+header,
+.jarallax {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 100vh;
+  }
+}
+h1{
+    color: rgba(255,255,255,0.2);
+}
+h1:hover{
+    color:rgb(132, 190, 218);
+}
